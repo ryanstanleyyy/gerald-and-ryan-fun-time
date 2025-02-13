@@ -58,9 +58,10 @@ summary(diamonds)
 ## STEP 11: And even more merge conflicts!
 
 ```{r break-it-2}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+#AAAAHHHH HELP THEY"RE TAKING MY CHILDREN, PLEASE HELP KILL ME 
+
+ggplot(data = diamonds) + 
+  geom_line(aes(x=carat, y =depth))
 
 
 ```
