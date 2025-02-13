@@ -36,7 +36,7 @@ diamonds_df <- ggplot2::diamonds |>
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-#Poooooooppyyyy pooooppppyyyy
+#Poooooooppyyyy pooooppppyyyy # Dont you fucking say word
 
 ggplot(data = diamonds) +
   geom_point(aes(x = price, y = carat)) +
@@ -44,9 +44,13 @@ ggplot(data = diamonds) +
 
 
 
+
 ggplot(data=diamonds_df) +
   geom_point (aes(x = depth, y = carat)) +
   theme_minimal()
+
+summary(diamonds)
+
 ```
 
 
