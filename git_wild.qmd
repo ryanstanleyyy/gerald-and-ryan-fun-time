@@ -34,11 +34,11 @@ ggplot(data = diamonds) +
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+#Poooooooppyyyy pooooppppyyyy
 
-
+ggplot(data = diamonds) +
+  geom_point(aes(x = price, y = carat)) +
+  theme_bw()
 ```
 
 ## STEP 11: And even more merge conflicts!
@@ -50,4 +50,3 @@ ggplot(data = diamonds) +
 
 
 ```
-
